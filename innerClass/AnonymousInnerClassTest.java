@@ -30,6 +30,7 @@ class TalkingClock {
      */
     public void start(int interval, boolean beep){
         ActionListener listener = new ActionListener(){
+            @Override
             public void actionPerformed(ActionEvent event){
                 System.out.println("At the tone, the time is "+new Date());
                 if (beep) {
