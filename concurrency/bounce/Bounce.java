@@ -1,4 +1,4 @@
-package bounce;
+package concurrency.bounce;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -55,7 +55,7 @@ class BounceFrame extends JFrame {
     }
 
     /**
-     * Adds a bouncing ball to the panel and makes it bounce 1,000 times.
+     * Adds a bouncing ball to the panel and makes it concurrency.bounce 1,000 times.
      */
     public void addBall(){
         try{

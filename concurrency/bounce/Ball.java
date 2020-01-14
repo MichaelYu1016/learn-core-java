@@ -1,9 +1,11 @@
-package bounce;
+package concurrency.bounce;
 
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Rectangle2D;
 
 /**
+ * A ball that moves and bounces off the edges of a rectangle
+ *
  * @author yunongxin
  * @version V1.0
  * @date 2020-01-14

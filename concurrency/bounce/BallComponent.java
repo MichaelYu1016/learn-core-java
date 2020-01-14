@@ -1,4 +1,4 @@
-package bounce;
+package concurrency.bounce;
 
 import javax.swing.*;
 import java.awt.*;
@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * The component that draws the balls.
  * @author yunongxin
  * @version V1.0
  * @date 2020-01-14
